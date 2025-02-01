@@ -115,3 +115,100 @@ body
     border-radius: 8px;
     background: rgba(82, 195, 3, 0.15);
 }
+#follow{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#follow .kabab{
+    width: 50%;
+}
+.kabab img{
+    width: 100%;
+    padding: 10px;
+    width: 960px;
+    height: 671px;
+    left: 0;
+    top: 0;
+}
+#follow .title{
+    color: rgb(16, 16, 16);
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 32px 10px;
+    padding: 64px 64px;
+}
+#follow .subtitle{
+    color: rgb(16, 16, 16);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.6;
+}
+#follow .follows{
+    box-sizing: border-box;
+    border-bottom: 2px solid rgba(16, 16, 16, 0.2);
+    border-top: 2px solid rgba(16, 16, 16, 0.2);
+    color: rgb(16, 16, 16);
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38px;
+    text-align: center;
+    margin: 64px 0;
+    padding: 32px;
+}
+.social
+{
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+.social img
+{
+    width: 48px;
+}
+
+#footer{
+    background-image: url(./assets/social-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 560px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 135px 300px;
+    gap: 64px;
+}
+#footer .title{
+    color: rgb(16, 16, 16);
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 64px;
+    text-align: center;
+    margin-bottom: 36px;
+}
+#footer .subtitle{
+    color: rgb(16, 16, 16);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: center;
+}
+#footer .follows{
+    padding: 32px 0;
+    width: 100%;
+    color: rgb(16, 16, 16);
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38px;
+    text-align: center;
+    border-top: 2px solid rgba(16, 16, 16, 0.2);
+    border-bottom: 2px solid rgba(16, 16, 16, 0.2);
+}
