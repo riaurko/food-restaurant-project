@@ -4,6 +4,10 @@
     margin: 0;
     padding: 0;
 }
+body
+{
+    font-family: "Work Sans";
+}
 #hero{
     background: linear-gradient(0deg, rgb(9, 9, 9) -19.5%,rgba(16, 16, 16, 0) 100%), url(./assets/hero-bg.png);
     background-size: cover;
@@ -57,7 +61,57 @@
     border-radius: 8px;
     background: rgb(82, 195, 3);
     border: none;
+    cursor: pointer;
 }
 .btn-container{
     text-align: center;
+}
+#card-box{
+    width: 1320px;
+    margin: 100px auto;
+
+}
+#card-box .subtitle{
+    color: rgb(16, 16, 16);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.6;
+
+}
+#card-box .title{
+    color: rgb(16, 16, 16);
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.card-container{
+    margin-top: 48px;
+    display: flex;
+    justify-content: space-between;
+}
+.card{
+    max-width: 420px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.card .image-box{
+    width: 250px;
+}
+.card .image-box img{
+    width: 100%;
+}
+.card .shop{
+    text-align: center;
+    background-color: aqua;
+    padding: 14px 32px 14px 32px;
+    border-radius: 8px;
+    background: rgba(82, 195, 3, 0.15);
 }
